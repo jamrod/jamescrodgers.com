@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { checkPath } from '../helpers'
+import ProjectCard from './ProjectCard.js'
 
 function Projects(props) {
 
@@ -15,16 +16,26 @@ function Projects(props) {
         elem.classList.remove("show")
     }
 
+    const onlineHerbal = {
+        link: "http://www.onlineherbal.org",
+        alt: "online-herbal",
+        title: "Online Herbal Recipe App",
+        description: "Made with Python Django and hosted in an EC2 instance on AWS, this site has full CRUD functionality and a PSQL database which is searchable through a REST API.",
+        image: "/OnlineHerbal.png",
+        id: "online-herbal",
+        badges: [{image:"/icons/HTML5.svg", alt: "html badge"}]
+    }
     return (
         <div className="projects-container centered">
             {checkPath(props)}
-            
+
             <div className="projects">
 
                 <div className="flex-container-row space" > {/*start row 1 */}
 
                     <div className="flex-container-column centered">
-                        <a href="http://www.onlineherbal.org" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "online-herbal") }} onMouseOut={function (e) { hideDescription(e, "online-herbal") }}>
+                        <ProjectCard items={onlineHerbal} showDecription={showDescription} hideDescription={hideDescription}></ProjectCard>
+                        {/* <a href="http://www.onlineherbal.org" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "online-herbal") }} onMouseOut={function (e) { hideDescription(e, "online-herbal") }}>
                             <h2>
                                 Online Herbal Recipe App
                             </h2>
@@ -40,13 +51,13 @@ function Projects(props) {
                                 <img src="/icons/aws.svg" className="icons" alt="aws badge" />
                             </div>
 
-                        </a>
+                        </a> */}
                         <a href="https://github.com/jamrod/herbal-remedy-finder" target="blank">Github Repo</a>
 
                     </div>
 
                     <div className="flex-container-column centered">
-                        <a href="https://practical-babbage-bbcc33.netlify.com/" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "mixer-assister") }} onMouseOut={function (e) { hideDescription(e, "mixer-assister") }}>
+                        <a href="https://practical-babbage-bbcc33.netlify.com/" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "mixer-assister") }} onMouseOut={function (e) { hideDescription(e, "mixer-assister") }}>
                             <h2>
                                 Mixer-Assister Cocktail app
                             </h2>
@@ -61,11 +72,11 @@ function Projects(props) {
                                 <img src="/icons/react.svg" className="icons" alt="react badge" />
                             </div>
                         </a>
-                        <a href="https://github.com/jamrod/mixer-assister"  target="blank">Github Repo</a>
+                        <a href="https://github.com/jamrod/mixer-assister" target="blank">Github Repo</a>
                     </div>
 
                     <div className="flex-container-column centered">
-                        <a href="https://s3.amazonaws.com/faultystars.org/index.html" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "simon") }} onMouseOut={function (e) { hideDescription(e, "simon") }}>
+                        <a href="https://s3.amazonaws.com/faultystars.org/index.html" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "simon") }} onMouseOut={function (e) { hideDescription(e, "simon") }}>
                             <h2>
                                 Simon Memory Game
                             </h2>
@@ -82,7 +93,7 @@ function Projects(props) {
                                 <img src="/icons/aws.svg" className="icons" alt="aws badge" />
                             </div>
                         </a>
-                        <a href="https://github.com/jamrod/simonGame"  target="blank">Github Repo</a>
+                        <a href="https://github.com/jamrod/simonGame" target="blank">Github Repo</a>
                     </div>
 
 
@@ -90,8 +101,8 @@ function Projects(props) {
 
                 <div className="flex-container-row space" >{/*start row 2 */}
 
-                <div className="flex-container-column centered">
-                        <a href="https://flash-cards.jamescrodgers.com" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "flashcards") }} onMouseOut={function (e) { hideDescription(e, "flashcards") }}>
+                    <div className="flex-container-column centered">
+                        <a href="https://flash-cards.jamescrodgers.com" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "flashcards") }} onMouseOut={function (e) { hideDescription(e, "flashcards") }}>
                             <h2>
                                 Flash Cards
                             </h2>
@@ -109,11 +120,11 @@ function Projects(props) {
                                 <img src="/icons/aws.svg" className="icons" alt="aws badge" />
                             </div>
                         </a>
-                        <a href="https://github.com/jamrod/flashcards"  target="blank">Github Repo</a>
+                        <a href="https://github.com/jamrod/flashcards" target="blank">Github Repo</a>
                     </div>
 
                     <div className="flex-container-column centered">
-                        <a href="https://kingspook.com" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "kingspook") }} onMouseOut={function (e) { hideDescription(e, "kingspook") }}>
+                        <a href="https://kingspook.com" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "kingspook") }} onMouseOut={function (e) { hideDescription(e, "kingspook") }}>
                             <h2>
                                 Kingspook.com
                             </h2>
@@ -131,7 +142,7 @@ function Projects(props) {
                                 <img src="/icons/aws.svg" className="icons" alt="aws badge" />
                             </div>
                         </a>
-                        <a href="https://github.com/jamrod/kingspook"  target="blank">Github Repo</a>
+                        <a href="https://github.com/jamrod/kingspook" target="blank">Github Repo</a>
                     </div>
 
                 </div> {/*end row 2 */}
@@ -139,7 +150,7 @@ function Projects(props) {
                 <div className="flex-container-row space" >{/*start row 3 */}
 
                     <div className="flex-container-column centered">
-                        <a href="https://stercommtech.com.com" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "sterling") }} onMouseOut={function (e) { hideDescription(e, "sterling") }}>
+                        <a href="https://stercommtech.com.com" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "sterling") }} onMouseOut={function (e) { hideDescription(e, "sterling") }}>
                             <h2>
                                 Sterling Communication Technologies
                             </h2>
@@ -158,14 +169,14 @@ function Projects(props) {
                     </div>
 
                     <div className="flex-container-column centered">
-                        <a href="https://thelittleherbalapothecary.com" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "lha") }} onMouseOut={function (e) { hideDescription(e, "lha") }}>
+                        <a href="https://thelittleherbalapothecary.com" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "lha") }} onMouseOut={function (e) { hideDescription(e, "lha") }}>
                             <h2>
                                 Little Herbal Apothecary
                             </h2>
                             <div className="description" id="lha">
                                 <p>
                                     Shopify Online Store and Wordpress Blog. Blog is hosted in AWS Lightsail.
-                                    </p>
+                                </p>
                             </div>
                             <img src="/LittleHerbalApothecary.png" className="link-pic" alt="apothecary screenshot" />
                             <div className="flex-container-row centered">
@@ -174,10 +185,10 @@ function Projects(props) {
                             </div>
                         </a>
                         <span className="filler">&hearts;</span>
-                    </div>                    
+                    </div>
 
                     <div className="flex-container-column centered">
-                        <a href="https://gemstonefacialrollers.com" className="proj-link"  target="blank" onMouseOver={function (e) { showDescription(e, "gemrollers") }} onMouseOut={function (e) { hideDescription(e, "gemrollers") }}>
+                        <a href="https://gemstonefacialrollers.com" className="proj-link" target="blank" onMouseOver={function (e) { showDescription(e, "gemrollers") }} onMouseOut={function (e) { hideDescription(e, "gemrollers") }}>
                             <h2>
                                 GEMROLLERS
                             </h2>

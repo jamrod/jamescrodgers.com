@@ -50,7 +50,7 @@ header a:hover {
 
 Footer {
   width: 100%;
-  background-image: url("/funFooter.png");
+  background-image: url("assets/funFooter.png");
   background-repeat: repeat-x;
   justify-content: space-around;
   margin-top: auto;
@@ -132,7 +132,7 @@ Nav {
 }
 
 .active {
-  background-image: url("/SkinnyCloud.png");
+  background-image: url("assets/SkinnyCloud.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
