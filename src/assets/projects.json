@@ -1,0 +1,80 @@
+{
+    "row1": [
+        {
+            "link": "https://stercommtech.com",
+            "id": "sterling",
+            "title": "Sterling Communication Technologies",
+            "description": "Made with Wordpress and hosted in AWS Lightsail.",
+            "image": "/stercommtechScreenshot.png",
+            "alt": "SterCommTech.com Screenshot",
+            "badges": [
+                {"image":"/icons/wordpress.svg", "alt": "wordpress badge"},
+                {"image":"/icons/aws.svg", "alt": "aws badge"}
+            ],
+            "githubRepo": ""
+        },
+        {
+            "link": "https://thelittleherbalapothecary.com",
+            "id": "lha",
+            "title": "Little Herbal Apothecary",
+            "description": "Shopify Online Store and Wordpress Blog. Blog is hosted in AWS Lightsail.",
+            "image": "/LittleHerbalApothecary.png",
+            "alt": "TheLittleHerbalApothecary.com Screenshot",
+            "badges": [
+                {"image":"/icons/shopify.svg", "alt": "shopify badge"},
+                {"image":"/icons/wordpress.svg", "alt": "wordpress badge"},
+                {"image":"/icons/aws.svg", "alt": "aws badge"}
+            ],
+            "githubRepo": ""
+        },
+        {
+            "link": "https://kingspook.com",
+            "id": "kingspook",
+            "title": "Kingspook.com",
+            "description": "Gallery Site made with 11ty using Liquid Template Language and hosted on AWS in an S3 bucket utilizing CloudFront.",
+            "image": "/kingSpookScreenshot.png",
+            "alt": "Kingspook.com Screenshot",
+            "badges": [
+                {"image":"/icons/HTML5.svg", "alt": "html badge"},
+                {"image":"/icons/CSS3.svg", "alt": "css badge"},
+                {"image":"/icons/javascript.svg", "alt": "javascript badge"},
+                {"image":"/icons/11tyIcon.png", "alt": "11ty badge"},
+                {"image":"/icons/aws.svg", "alt": "aws badge"}
+            ],
+            "githubRepo": "https://github.com/jamrod/kingspook"
+        }
+    ],
+    "row2": [
+        {
+            "link": "https://s3.amazonaws.com/faultystars.org/index.html",
+            "id": "simon",
+            "title": "Simon Memory Game",
+            "description": "Vanilla Javascript game hosted in an S3 bucket.",
+            "image": "/SimonScreenshot.png",
+            "alt": "Simon Game Screenshot",
+            "badges": [
+                {"image":"/icons/HTML5.svg", "alt": "html badge"},
+                {"image":"/icons/CSS3.svg", "alt": "css badge"},
+                {"image":"/icons/javascript.svg", "alt": "javascript badge"},
+                {"image":"/icons/aws.svg", "alt": "aws badge"}
+            ],
+            "githubRepo": "https://github.com/jamrod/simonGame"
+        },
+        {
+            "link": "https://flash-cards.jamescrodgers.com",
+            "id": "flashcards",
+            "title": "Flash Cards",
+            "description": "Made with React.js and hosted in an S3 bucket.",
+            "image": "/flashCardScreenshot.png",
+            "alt": "Flash Cards Screenshot",
+            "badges": [
+                {"image":"/icons/HTML5.svg", "alt": "html badge"},
+                {"image":"/icons/CSS3.svg", "alt": "css badge"},
+                {"image":"/icons/javascript.svg", "alt": "javascript badge"},
+                {"image": "/icons/react.svg", "alt": "react badge"},
+                {"image":"/icons/aws.svg", "alt": "aws badge"}
+            ],
+            "githubRepo": "https://github.com/jamrod/flashcards"
+        }
+    ]
+}
