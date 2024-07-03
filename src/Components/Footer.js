@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer className="flex-container-row">
             <div className="foots flex-container-row">
-                <span>&hearts; &copy; 2021</span>
+                <span>&hearts; &copy; 2024</span>
                 <img alt="JR" className="icons" src="/JRsymbol.png" />
                 <span>JCR &hearts;</span>
             </div>

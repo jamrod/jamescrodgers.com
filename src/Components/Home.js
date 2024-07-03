@@ -12,20 +12,18 @@ function Home(props) {
                 <div className="flex-container-row content">
                     <div><img src="me.jpg" className="me-pic" alt="pic of me" />
                         <p>
-                            I am a software engineer who thrives on opportunities to create custom solutions for people. A cool headed problem solver who sees the big picture but keeps an eye on the details. Looking for a chance to turn ‘nothing works!’ into ‘this is exactly what we need!’
+                            I am a Cloud Engineer currently working at Pearson since 2021. At Pearson I  manage the Pipeline for Hardened AMIs and build many solutions with <span className="attention">lambdas</span> and <span className="attention">Step Functions</span>. I love developing on AWS but I am also familiar with Azure. I am an <span className="attention">AWS Certified Solutions Architect - Associate</span>. <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="17e99337-c7bc-4745-9efa-ceac679bbf82" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                         </p>
                         <p>
-                            The tools and frameworks I work with include <span className="attention">React.js</span> and <span className="attention">Python Django</span> and platforms like <span className="attention">Wordpress</span>,<span className="attention"> Shopify</span>, <span className="attention">Jekyll</span> and <span className="attention">11ty</span>. Also, I have been experimenting with <span className="attention">AWS</span> for years and decided to get my<a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-05-13&ci=AWS00870341"> Certified Cloud Practicioner certification</a> in 2019. I continue to be excited by the possibilities of severless architechture and keep building my projects in the cloud.
+                            Other tools and frameworks I work with include <span className="attention">React.js</span> and <span className="attention">Python Django</span> and platforms like <span className="attention">Wordpress</span>,<span className="attention"> Shopify</span>, <span className="attention">Jekyll</span> and <span className="attention">11ty</span>.
                         </p>
                         <p>
-                            I have years of experience in tech, including management experience. An expert troubleshooter and problem solver who thrives on challenge, I got a big skills boost by going to General Assembly's Software Engineering Immersive course. Now I'm hoping to combine those new skills with my years of experience in health care, construction and customer service to bring solutions to complex problems.</p>
-                        <p>
-                            Here are some recent writings of mine posted to <a href="https://hackernoon.com">Hackernoon</a>...
+                            Here are some past writings of mine posted to <a href="https://hackernoon.com">Hackernoon</a>...
                             <br></br> <span className="attention"><a href="https://hackernoon.com/handling-client-side-routing-when-hosting-your-reactjs-project-on-aws-s3-da6j3veq" target="blank">Handling Client Side Routing When Hosting Your React Project on AWS S3</a></span>
                             <br></br> <span className="attention"><a href="https://hackernoon.com/build-a-gallery-site-with-11ty-lu203zzm"  target="blank">Build a Gallery Site With 11ty</a> </span>
                         </p>
                         <p>
-                            I'm not just a Software Engineer, I'm also a Musician. I made this <a href="/ScaleFinder"  >cool app which lets you quickly determine music scales here</a>. Also, I have some <a href="/Music" >albums which I recorded with bands I played in years ago, you can download here</a>.
+                            I'm not just a Software Engineer, I'm also a Musician. I made this <a href="/ScaleFinder" >cool app which lets you quickly determine music scales here</a>. Also, I have some <a href="/Music" >albums which I recorded with bands I played in years ago, you can download here</a>.
                         </p>
                         <p>
                             I live in Lafayette CO with my wife and children. My wife, Faith, is the genius and animating force behind <a href="https:\\thelittleherbalapothecary.com"  target="blank">The Little Herbal Apothecary</a> in downtown Lafayette. If you are nearby, come in and check it out!
