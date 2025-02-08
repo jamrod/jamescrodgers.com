@@ -8,8 +8,14 @@
             "image": "/stercommtechScreenshot.png",
             "alt": "SterCommTech.com Screenshot",
             "badges": [
-                {"image":"/icons/wordpress.svg", "alt": "wordpress badge"},
-                {"image":"/icons/aws.svg", "alt": "aws badge"}
+                {
+                    "image": "/icons/wordpress.svg",
+                    "alt": "wordpress badge"
+                },
+                {
+                    "image": "/icons/aws.svg",
+                    "alt": "aws badge"
+                }
             ],
             "githubRepo": ""
         },
@@ -21,9 +27,18 @@
             "image": "/LittleHerbalApothecary.png",
             "alt": "TheLittleHerbalApothecary.com Screenshot",
             "badges": [
-                {"image":"/icons/shopify.svg", "alt": "shopify badge"},
-                {"image":"/icons/wordpress.svg", "alt": "wordpress badge"},
-                {"image":"/icons/aws.svg", "alt": "aws badge"}
+                {
+                    "image": "/icons/shopify.svg",
+                    "alt": "shopify badge"
+                },
+                {
+                    "image": "/icons/wordpress.svg",
+                    "alt": "wordpress badge"
+                },
+                {
+                    "image": "/icons/aws.svg",
+                    "alt": "aws badge"
+                }
             ],
             "githubRepo": ""
         },
@@ -35,28 +50,55 @@
             "image": "/kingSpookScreenshot.png",
             "alt": "Kingspook.com Screenshot",
             "badges": [
-                {"image":"/icons/HTML5.svg", "alt": "html badge"},
-                {"image":"/icons/CSS3.svg", "alt": "css badge"},
-                {"image":"/icons/javascript.svg", "alt": "javascript badge"},
-                {"image":"/icons/11tyIcon.png", "alt": "11ty badge"},
-                {"image":"/icons/aws.svg", "alt": "aws badge"}
+                {
+                    "image": "/icons/HTML5.svg",
+                    "alt": "html badge"
+                },
+                {
+                    "image": "/icons/CSS3.svg",
+                    "alt": "css badge"
+                },
+                {
+                    "image": "/icons/javascript.svg",
+                    "alt": "javascript badge"
+                },
+                {
+                    "image": "/icons/11tyIcon.png",
+                    "alt": "11ty badge"
+                },
+                {
+                    "image": "/icons/aws.svg",
+                    "alt": "aws badge"
+                }
             ],
             "githubRepo": "https://github.com/jamrod/kingspook"
         }
     ],
     "row2": [
         {
-            "link": "https://s3.amazonaws.com/faultystars.org/index.html",
+            "link": "http://simon-game.jamescrodgers.com.s3-website-us-west-2.amazonaws.com",
             "id": "simon",
             "title": "Simon Memory Game",
             "description": "Vanilla Javascript game hosted in an S3 bucket.",
             "image": "/SimonScreenshot.png",
             "alt": "Simon Game Screenshot",
             "badges": [
-                {"image":"/icons/HTML5.svg", "alt": "html badge"},
-                {"image":"/icons/CSS3.svg", "alt": "css badge"},
-                {"image":"/icons/javascript.svg", "alt": "javascript badge"},
-                {"image":"/icons/aws.svg", "alt": "aws badge"}
+                {
+                    "image": "/icons/HTML5.svg",
+                    "alt": "html badge"
+                },
+                {
+                    "image": "/icons/CSS3.svg",
+                    "alt": "css badge"
+                },
+                {
+                    "image": "/icons/javascript.svg",
+                    "alt": "javascript badge"
+                },
+                {
+                    "image": "/icons/aws.svg",
+                    "alt": "aws badge"
+                }
             ],
             "githubRepo": "https://github.com/jamrod/simonGame"
         },
@@ -68,11 +110,26 @@
             "image": "/flashCardScreenshot.png",
             "alt": "Flash Cards Screenshot",
             "badges": [
-                {"image":"/icons/HTML5.svg", "alt": "html badge"},
-                {"image":"/icons/CSS3.svg", "alt": "css badge"},
-                {"image":"/icons/javascript.svg", "alt": "javascript badge"},
-                {"image": "/icons/react.svg", "alt": "react badge"},
-                {"image":"/icons/aws.svg", "alt": "aws badge"}
+                {
+                    "image": "/icons/HTML5.svg",
+                    "alt": "html badge"
+                },
+                {
+                    "image": "/icons/CSS3.svg",
+                    "alt": "css badge"
+                },
+                {
+                    "image": "/icons/javascript.svg",
+                    "alt": "javascript badge"
+                },
+                {
+                    "image": "/icons/react.svg",
+                    "alt": "react badge"
+                },
+                {
+                    "image": "/icons/aws.svg",
+                    "alt": "aws badge"
+                }
             ],
             "githubRepo": "https://github.com/jamrod/flashcards"
         }
